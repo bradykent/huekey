@@ -36,7 +36,8 @@ The command files contain the following three lines (we'll use the example file)
 	example() # <--This runs the example scene and changes the lights.
 ```
 After you change the above lines to work, save the file with a name that you'll remember.
-**IMPORTANT:** The command scripts need to be in the same folder as the scenes.py file to work.
+
+**IMPORTANT:** The command scripts need to be in the same folder as the scenes.py file to work. They also need to be executable (Either via the Terminal by running: chmod +x file.command or by Get Info in Finder)
 
 ##BetterTouchTool
 Now for the final step. Open BTT and create your actions, pointing the triggers to "Open Application / File / Script" and then selecting the script you want to run. Then test it and it should work!
