@@ -15,6 +15,8 @@ There are two main components to huekey: the scenes.py file and the command scri
 You will define all of the scenes you want to be able to trigger in this file. I've provided some examples to get started, but you'll have to individually code the lights if you want to create particular scenes.
 If you're uncomfortable with sending individual commands to control the lights, I'd recommend getting the status of your system when you have it set to your liking and using that response to control the lights.
 
+Before you begin, make sure to edit the scenes.py file, line 2, to add your bridge's IP address.
+
 For example, if I like the settings on lights 2 and 3 and want to turn that into a scene, I would execute the following commands in Terminal:
 ```
 	python
