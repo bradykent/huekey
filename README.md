@@ -40,3 +40,5 @@ After you change the above lines to work, save the file with a name that you'll 
 
 ##BetterTouchTool
 Now for the final step. Open BTT and create your actions, pointing the triggers to "Open Application / File / Script" and then selecting the script you want to run. Then test it and it should work!
+
+If you want terminal to close automatically after running the script, go to Terminal preferences->settings->shell and change "When the shell exits:" to "Close if the shell exited cleanly"
