@@ -1,5 +1,5 @@
 from phue import Bridge
-b = Bridge('192.168.1.73')
+b = Bridge('YOUR.IP.ADDRESS.HERE')
 
 # Get a dictionary with individual light numbers as the key (1,2,3,etc.)
 lights = b.get_light_objects('id')
