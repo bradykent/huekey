@@ -43,3 +43,6 @@ After you change the above lines to work, save the file with a name that you'll 
 Now for the final step. Open BTT and create your actions, pointing the triggers to "Open Application / File / Script" and then selecting the script you want to run. Then test it and it should work!
 
 If you want terminal to close automatically after running the script, go to Terminal preferences->settings->shell and change "When the shell exits:" to "Close if the shell exited cleanly"
+
+##Other Apps
+Not satisfied with BTT, and you'd rather activate these with a keyboard command? Take a look at [FastScripts](http://www.red-sweater.com/fastscripts/) or any other app that'll let you launch a script with a keyboard shorcut (Keyboard Maestro comes to mind, or Alfred...).
